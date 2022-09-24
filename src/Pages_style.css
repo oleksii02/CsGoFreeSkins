@@ -1,0 +1,126 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+h1 {
+    font-weight: 300;
+    color: whitesmoke;
+    padding-top: 4%;
+    border-bottom: 2px solid whitesmoke;
+    margin: 0 14% 0 10%  ;
+}
+
+h2 {
+    font-weight: 700;
+    color: whitesmoke;
+    padding-left: 10%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+
+}
+.FooterText {
+    color: whitesmoke;
+    padding-right: 10%;
+    padding-left: 10%;
+    padding-bottom: 2%;
+}
+.Link {
+    color: whitesmoke;
+    margin-left: 3px;
+}
+
+.Link:hover {
+    color: #1876D1;
+}
+
+.Links {
+    padding-top: 5%;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+.block {
+    display: inline-block ;
+    height:100%;
+    padding-bottom: 30px;
+    width: 280px;
+}
+
+
+.BeckImg {
+
+    background: url('image/wp10451929.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+}
+
+.Footer {
+
+    background-color: #212529;
+}
+
+body {
+    font-family: 'e-Ukraine', sans-serif;
+}
+
+@font-face {
+    font-family: 'e-Ukraine';
+    src: url("fonts/e-Ukraine-Thin.otf"),
+    url("fonts/e-Ukraine-Thin.woff2"),
+    url("fonts/e-Ukraine-Thin.woff");
+    font-weight: 100;
+    font-display: swap;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'e-Ukraine';
+    src: url("fonts/e-Ukraine-UltraLight.otf"),
+    url("fonts/e-Ukraine-UltraLight.woff2"),
+    url("fonts/e-Ukraine-UltraLight.woff");
+    font-weight: 200;
+    font-display: swap;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'e-Ukraine';
+    src: url("fonts/e-Ukraine-Light.otf"),
+    url("fonts/e-Ukraine-Light.woff2"),
+    url("fonts/e-Ukraine-Light.woff");
+    font-weight: 300;
+    font-display: swap;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'e-Ukraine';
+    src: url("fonts/e-Ukraine-Regular.otf"),
+    url("fonts/e-Ukraine-Regular.woff2"),
+    url("fonts/e-Ukraine-Regular.woff");
+    font-weight: 400;
+    font-display: swap;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'e-Ukraine';
+    src: url("fonts/e-Ukraine-Medium.otf"),
+    url("fonts/e-Ukraine-Medium.woff2"),
+    url("fonts/e-Ukraine-Medium.woff");
+    font-weight: 500;
+    font-display: swap;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'e-Ukraine';
+    src: url("fonts/e-Ukraine-Bold.otf"),
+    url("fonts/e-Ukraine-Bold.woff2"),
+    url("fonts/e-Ukraine-Bold.woff");
+    font-weight: 700;
+    font-display: swap;
+    font-style: normal;
+}
