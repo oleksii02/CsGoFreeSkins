@@ -1,5 +1,6 @@
 import React from 'react';
-import '../Pages_style.css'
+import './PagesStyles.css'
+import '../global.css'
 import ImgMediaCard from "../components/ImgMediaCard";
 
 import CsGetto from '../image/images/1-1.png'
@@ -37,11 +38,11 @@ import TradeIt from '../image/images/tradeit.jpeg'
 import EasyDrop from '../image/images/easy-drop.jpeg'
 import GiveDrop from '../image/images/givedrop.jpg'
 
-function Links() {
+function SitesLinks() {
     return (
         <div className={'BeckImg'} >
-            <h1>Бесплатные скины CS:GO — Сайты с халявой и без депозита</h1>
-                <div className={'Links'}>
+            <div className={'Title'}><h2>Бесплатные скины CS:GO — Сайты с халявой и без депозита</h2></div>
+                <div className={'SitesLinks'}>
                     <div className={'block'}><ImgMediaCard
                         alt = 'CsGetto'
                         image ={CsGetto}
@@ -320,4 +321,4 @@ function Links() {
     );
 }
 
-export default Links;
+export default SitesLinks;

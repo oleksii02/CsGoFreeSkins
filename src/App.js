@@ -1,13 +1,15 @@
 import React from "react";
-import Links from "./pages/Links";
+import SitesLinks from "./pages/SitesLinks";
 import Footer from "./pages/Footer";
+import Header from "./pages/Header";
 
 
 function App() {
   return (
 
     <div >
-        <Links />
+        <Header/>
+        <SitesLinks/>
         <Footer/>
 
 

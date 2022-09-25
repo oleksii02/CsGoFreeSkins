@@ -1,12 +1,12 @@
 import React from 'react';
-import EmailIcon from '@mui/icons-material/Email';
-import '../Pages_style.css'
+import './PagesStyles.css'
+import '../global.css'
 
 function Footer(props) {
     return (
         <div>
             <div className={'Footer'}>
-                <h2>О сайте:</h2>
+                <h3>О сайте:</h3>
                 <p className={'FooterText'}>На этом сайте я собрал много различных ресурсов, где вы сможете испытать свою удачливость и получить бесплатные скины для csgo.</p>
                 <p className={'FooterText'}>Также там есть много игр благодаря которым вы сможете улучшить свой инвентарь в csgo.</p>
                 <p className={'FooterText'}>Желаю вам удачи.</p>
