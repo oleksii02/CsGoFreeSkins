@@ -1,6 +1,6 @@
 import React from 'react';
 import './PagesStyles.css'
-import '../global.css'
+import '../GlobalStyles.css'
 import ImgMediaCard from "../components/ImgMediaCard";
 
 import CsGetto from '../image/images/1-1.png'

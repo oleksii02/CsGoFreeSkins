@@ -1,0 +1,109 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+h2 {
+    color: whitesmoke;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    padding-left: 5.5%;
+
+}
+
+h3 {
+    color: whitesmoke;
+    padding-left: 5.5%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+}
+.kod {
+    padding-left: 5px;
+    padding-right: 3px;
+}
+
+.promo {
+    margin-bottom: 15px;
+}
+input {
+    padding-left: 4px;
+    height: 30px;
+    width: 150px;
+}
+
+
+.Link {
+    color: whitesmoke;
+    margin-left: 3px;
+}
+
+.Link:hover {
+    color: #1876D1;
+}
+
+.block {
+    display: inline-block ;
+    height:100%;
+    padding-bottom: 30px;
+    width: 280px;
+}
+
+.BeckImg {
+
+    background: url('image/wp10451929.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+}
+
+@font-face {
+    font-family: 'e-Ukraine';
+    src: url("fonts/e-Ukraine-UltraLight.otf"),
+    url("fonts/e-Ukraine-UltraLight.woff2"),
+    url("fonts/e-Ukraine-UltraLight.woff");
+    font-weight: 200;
+    font-display: swap;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'e-Ukraine';
+    src: url("fonts/e-Ukraine-Light.otf"),
+    url("fonts/e-Ukraine-Light.woff2"),
+    url("fonts/e-Ukraine-Light.woff");
+    font-weight: 300;
+    font-display: swap;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'e-Ukraine';
+    src: url("fonts/e-Ukraine-Regular.otf"),
+    url("fonts/e-Ukraine-Regular.woff2"),
+    url("fonts/e-Ukraine-Regular.woff");
+    font-weight: 400;
+    font-display: swap;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'e-Ukraine';
+    src: url("fonts/e-Ukraine-Medium.otf"),
+    url("fonts/e-Ukraine-Medium.woff2"),
+    url("fonts/e-Ukraine-Medium.woff");
+    font-weight: 500;
+    font-display: swap;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'e-Ukraine';
+    src: url("fonts/e-Ukraine-Bold.otf"),
+    url("fonts/e-Ukraine-Bold.woff2"),
+    url("fonts/e-Ukraine-Bold.woff");
+    font-weight: 700;
+    font-display: swap;
+    font-style: normal;
+}

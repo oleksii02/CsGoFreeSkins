@@ -6,7 +6,7 @@ import CardMedia from '@mui/material/CardMedia';
 import Button from '@mui/material/Button';
 import Typography from '@mui/material/Typography';
 
-
+import '../GlobalStyles.css'
 export default function ImgMediaCard(props) {
 
 
@@ -29,8 +29,8 @@ export default function ImgMediaCard(props) {
                 </Typography>
             </CardContent>
             <CardActions >
-                <p style={{paddingBottom :4, marginLeft: 7}} >Код:</p>
-                <input style={{margin:3, padding:1}} value={props.promo} />
+                <p className={'kod'} >Код:</p>
+                <input className={'promo'}  value={props.promo} />
             </CardActions>
         </Card>
     );
